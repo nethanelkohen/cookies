@@ -1,0 +1,39 @@
+body {
+  background: blue;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial;
+}
+
+.count {
+  text-align: center;
+  text-shadow: 1px 1px #B38867;
+  color: white;
+  font: italic bold 33px Arial, serif;
+  border-radius: 100%;
+}
+
+.count:hover {
+  background-color: grey;
+  color: red;
+  cursor: pointer;
+}
+
+.count:active {
+  box-shadow: 0 5% white;
+  transform: translateY(10%);
+}
